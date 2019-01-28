@@ -1,10 +1,10 @@
 
 main {
-    background-image: url("/images/dusk.jpg");
+    background-image: linear-gradient(to top, rgb(127,48,16), rgb(235,142,104), rgb(216, 142, 112));
     background-repeat: no-repeat;
     background-size: cover;
-    color: whitesmoke;
     font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -13,18 +13,23 @@ main {
 
 }
 header {
-    background-color: #b34417;
+    background-image:linear-gradient(to top, rgb(90,	33,	11), rgb(136, 50, 16), rgb(162, 61, 21));
+    border-bottom: 4px solid rgb(112, 189, 216);
+    font-family: 'Rye', cursive;
 }
 
+h4 {
+    font-weight: bold;
+}
 #navBar {
     display: inline;
     text-align: center;
     float: none;
-    color: whitesmoke;
+    color: rgb(112, 189, 216);
 }
 
 li a {
-    color: whitesmoke;
+    color: rgb(112, 189, 216);
 }
 
 #Me {
@@ -39,4 +44,8 @@ li a {
 .myStory {
     text-align: center;
     margin-top:40px;
+}
+
+footer {
+    border-top: 4px solid rgb(112, 189, 216);
 }
