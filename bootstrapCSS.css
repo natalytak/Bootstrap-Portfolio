@@ -16,6 +16,7 @@ header {
     background-image:linear-gradient(to top, rgb(90,	33,	11), rgb(136, 50, 16), rgb(162, 61, 21));
     border-bottom: 4px solid rgb(112, 189, 216);
     font-family: 'Rye', cursive;
+    width:100%;
 }
 
 h4 {
