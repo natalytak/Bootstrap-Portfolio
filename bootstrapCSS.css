@@ -1,0 +1,42 @@
+
+main {
+    background-image: url("/images/dusk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 1.5em;
+    
+}
+
+#links {
+    display: inline;
+
+}
+header {
+    background-color: #b34417;
+}
+
+#navBar {
+    display: inline;
+    text-align: center;
+    float: none;
+    color: whitesmoke;
+}
+
+li a {
+    color: whitesmoke;
+}
+
+#Me {
+    max-width:100%; 
+    height:auto; 
+    margin:20px;
+    overflow: auto;
+    text-align: center;
+    border-radius: 150%;
+}
+
+.myStory {
+    text-align: center;
+    margin-top:40px;
+}
